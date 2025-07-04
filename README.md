@@ -1,65 +1,62 @@
-Hajee Mohammad Danesh Science and Technology University  
-Dinajpur-5200
+                                  ![image](https://github.com/user-attachments/assets/b5ad8856-0cca-4e32-8adf-55776989aa29)
 
----
+                                          Hajee Mohammad Danesh Science and Technology University  Dinajpur-5200
 
-## Course Information  
-**Course Title:** Mathematical Analysis for Computer Science  
-**Course Code:** CSE 361
 
----
 
-## Algorithm Name  
-🔐 **NovaCube Cipher**  
-_Cube-Based Symmetric Modular Cipher_
+ 
+                                        Course Title:Mathematical Analysis for Computer Science  
+                                                      Course Code: CSE 361
 
----
 
-## 🧑‍💻 Submitted By  
-**Name:** Your Name Here  
-**Student ID:** Your ID Here  
-**Level:** 3  
-**Semester:** II  
-**Department:** Computer Science and Engineering
 
----
+                                                      Algorithm Name  
+                                                     NovaCube Cipher
+                                         Cube-Based Symmetric Modular Cipher
 
-## 👨‍🏫 Submitted To  
-**Name:** Pankaj Bhowmik  
-**Designation:** Lecturer  
-**Department:** Computer Science and Engineering
 
----
+                                                      Submitted By  
+                                              Name: samiul Islam sami
+                                                  Student ID:2102020
+                                                   Level: 3  Semester: II  
+                                      Department: Computer Science and Engineering
 
-## 💡 Algorithm Description
+                                                       Submitted To  
+                                                  Name: Pankaj Bhowmik  
+                                                  Designation: Lecturer  
+                                        Department: Computer Science and Engineering
+
+
+
+ Algorithm Description
 **NovaCube** is a symmetric encryption algorithm that transforms characters using modular arithmetic, position-based logic, and a cubed-key value. It ensures strong obfuscation without pattern repetition.
 
----
 
-## 🔐 Encryption Algorithm
+
+ Encryption Algorithm
 Let:  
 - `P[i]` = ASCII value of the i-th character in plaintext  
 - `K` = user-provided odd integer key  
 - `i` = character position (starting from 0)  
 - `E[i]` = encrypted ASCII value
 
-### Formula:
-```
+ Formula:
+
 key_value = (K^3 + i^2) % 127  
 E[i] = (P[i] + key_value + i) % 127
-```
 
----
 
-## 🔓 Decryption Algorithm
+
+
+ Decryption Algorithm
 Let:  
 - `C[i]` = ASCII of i-th ciphertext character  
 - `K` = symmetric key  
 - `i` = position  
 - `D[i]` = decrypted ASCII value
 
-### Formula:
-```
+Formula:
+
 key_value = (K^3 + i^2) % 127  
 D[i] = (C[i] - key_value - i + 254) % 127
 ```
