@@ -1,10 +1,10 @@
                                   
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Hajee Mohammad Danesh Science and Technology University  Dinajpur-5200
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Hajee Mohammad Danesh Science and Technology University  Dinajpur-5200
 
 
-
- 
                                                                  Course Title:Mathematical Analysis for Computer Science  
                                                                  Course Code: CSE 361
 
