@@ -1,30 +1,29 @@
                                   
 
-                                                                     Hajee Mohammad Danesh Science and Technology University  Dinajpur-5200
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Hajee Mohammad Danesh Science and Technology University  Dinajpur-5200
 
 
 
  
-                                                                            Course Title:Mathematical Analysis for Computer Science  
-                                                                            Course Code: CSE 361
+                                                                 Course Title:Mathematical Analysis for Computer Science  
+                                                                 Course Code: CSE 361
 
 
 
-                                                                             Algorithm Name  
-                                                                             NovaCube Cipher
-                                                                             Cube-Based Symmetric Modular Cipher
+                                                                 Algorithm Name: NovaCube Cipher
+                                                                 Cube-Based Symmetric Modular Cipher
 
 
-                                                                             Submitted By  
-                                                                             Name: samiul Islam sami
-                                                                             Student ID:2102020
-                                                                             Level: 3  Semester: II  
-                                                                             Department: Computer Science and Engineering
+                                                                 Submitted By  
+                                                                 Name: samiul Islam sami
+                                                                 Student ID:2102020
+                                                                 Level: 3  Semester: II  
+                                                                 Department: Computer Science and Engineering
 
-                                                                             Submitted To  
-                                                                             Name: Pankaj Bhowmik  
-                                                                             Designation: Lecturer  
-                                                                             Department: Computer Science and Engineering
+                                                                 Submitted To  
+                                                                 Name: Pankaj Bhowmik  
+                                                                 Designation: Lecturer  
+                                                                 Department: Computer Science and Engineering
 
 
 
