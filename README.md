@@ -1,35 +1,35 @@
-                                  ![image](https://github.com/user-attachments/assets/b5ad8856-0cca-4e32-8adf-55776989aa29)
+                                  
 
-                                          Hajee Mohammad Danesh Science and Technology University  Dinajpur-5200
+                                                                     Hajee Mohammad Danesh Science and Technology University  Dinajpur-5200
 
 
 
  
-                                        Course Title:Mathematical Analysis for Computer Science  
-                                                      Course Code: CSE 361
+                                                                            Course Title:Mathematical Analysis for Computer Science  
+                                                                            Course Code: CSE 361
 
 
 
-                                                      Algorithm Name  
-                                                     NovaCube Cipher
-                                         Cube-Based Symmetric Modular Cipher
+                                                                             Algorithm Name  
+                                                                             NovaCube Cipher
+                                                                             Cube-Based Symmetric Modular Cipher
 
 
-                                                      Submitted By  
-                                              Name: samiul Islam sami
-                                                  Student ID:2102020
-                                                   Level: 3  Semester: II  
-                                      Department: Computer Science and Engineering
+                                                                             Submitted By  
+                                                                             Name: samiul Islam sami
+                                                                             Student ID:2102020
+                                                                             Level: 3  Semester: II  
+                                                                             Department: Computer Science and Engineering
 
-                                                       Submitted To  
-                                                  Name: Pankaj Bhowmik  
-                                                  Designation: Lecturer  
-                                        Department: Computer Science and Engineering
+                                                                             Submitted To  
+                                                                             Name: Pankaj Bhowmik  
+                                                                             Designation: Lecturer  
+                                                                             Department: Computer Science and Engineering
 
 
 
- Algorithm Description
-**NovaCube** is a symmetric encryption algorithm that transforms characters using modular arithmetic, position-based logic, and a cubed-key value. It ensures strong obfuscation without pattern repetition.
+Algorithm Description
+NovaCube is a symmetric encryption algorithm that transforms characters using modular arithmetic, position-based logic, and a cubed-key value. It ensures strong obfuscation without pattern repetition.
 
 
 
@@ -59,12 +59,12 @@ Formula:
 
 key_value = (K^3 + i^2) % 127  
 D[i] = (C[i] - key_value - i + 254) % 127
-```
 
----
 
-## 🧪 Example Test Case
-**Plaintext:** HSTU  
+
+
+ Example Test Case
+Plaintext: HSTU  
 **Key:** 5
 
 ### Encryption Table:
@@ -75,7 +75,7 @@ D[i] = (C[i] - key_value - i + 254) % 127
 | 2   | T    | 84     | 2      | 88               | X      |
 | 3   | U    | 85     | 7      | 95               | _      |
 
-**Ciphertext:** FSX_
+Ciphertext: FSX_
 
 ### Decryption Table:
 | Pos | Cipher | ASCII | KeyVal | Decrypted |
@@ -85,11 +85,10 @@ D[i] = (C[i] - key_value - i + 254) % 127
 | 2   | X      | 88     | 2      | T         |
 | 3   | _      | 95     | 7      | U         |
 
-**Decrypted Text:** HSTU ✅
+Decrypted Text: HSTU 
 
----
 
-## 🧰 Source Code (Python)
+ Source Code (Python)
 ```python
 # NovaCube Cipher
 
@@ -122,7 +121,7 @@ print("Decrypted:", original)
 
 ---
 
-## 🥇 Features
+ Features
 - Symmetric key based  
 - Non-linear key expansion with cube and square  
 - Position sensitive  
@@ -131,20 +130,20 @@ print("Decrypted:", original)
 
 ---
 
-## 📊 Complexity
+ Complexity
 - Time: O(n)  
 - Space: O(1) extra  
-- Fully reversible ✅
+- Fully reversible 
 
 ---
 
-## 🔹 Flowchart
+ Flowchart
 Flowchart diagram attached below:  
 ![Flowchart](flowchart.png)
 
 ---
 
-## 🚀 Future Improvements
+ Future Improvements
 - Key rotation on position basis  
 - Extended UTF-8 support  
 - Hybrid chaining block mode  
