@@ -31,7 +31,7 @@
 
 
 
-Algorithm Description
+Algorithm Description :
 NovaCube is a symmetric encryption algorithm that transforms characters using modular arithmetic, position-based logic, and a cubed-key value. It ensures strong obfuscation without pattern repetition.
 
 
